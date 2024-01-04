@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 14px 12px;
+    width: calc((100% - 12px * 4) / 5);
+  
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+    .offline {
+    display: block;
+    width: 14px;
+    height: 14px;
+  
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+    .online {
+    display: block;
+    width: 14px;
+    height: 14px;
+
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(10, 60, 100);
+  }
